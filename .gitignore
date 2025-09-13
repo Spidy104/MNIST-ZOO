@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+env/
+.venv1/
+
+# Data
+data/
+*.npz
+*.npy
+*.pt
+*.pth
+*.json
+notebook.ipynb
+
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.xml
