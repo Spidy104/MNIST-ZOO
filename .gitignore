@@ -15,7 +15,7 @@ env/
 .venv1/
 
 # Pycharm files
-.idea/
+.idea
 
 
 # Data
@@ -38,3 +38,4 @@ runs/
 .DS_Store
 Thumbs.db
 *.xml
+PyCharmMiscProject.iml
