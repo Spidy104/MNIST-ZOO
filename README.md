@@ -11,12 +11,12 @@ A collection of models trained on the MNIST handwritten digit dataset, comparing
 
 ## Results (Validation Accuracies)
 
-| Model                  | Accuracy (%) |
-|-------------------------|--------------|
-| MLP                    | 95.54        |
-| Sparse AE + clf         | 76.89        |
-| DAE + clf              | 96.70        |
-| CNN                    | **99.25**    |
+| Model           | Accuracy (%) |
+|-----------------|--------------|
+| MLP             | 95.54        |
+| Sparse AE + clf | 76.89        |
+| DAE + clf       | 96.70        |
+| CNN             | **99.25**    |
 
 The CNN achieves the best accuracy, as expected, but the autoencoders provide insights into representation learning and robustness.
 
@@ -26,8 +26,8 @@ The CNN achieves the best accuracy, as expected, but the autoencoders provide in
 
 ```
 .
-├── notebooks/          # Jupyter notebooks for training and evaluation
-├── checkpoints/        # Saved model weights (.pth files)
+├── notebook*.ipynb          # Jupyter notebooks for training and evaluation
+├── *.pth        # Saved model weights for the various models
 ├── data/              # MNIST dataset (auto-downloaded)
 ├── README.md
 └── .gitignore
